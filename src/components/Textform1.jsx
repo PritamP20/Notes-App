@@ -6,13 +6,10 @@ import { Link } from 'react-router-dom';
 
 const Textform1 = () => {
   return (
-    // <div className='flex h-screen w-full items-center justify-center font-bold bg-white-300'>
-    //      <h1>HI this is a  app</h1>
-    // </div>
     <>
-    <div className='flex space-x-5 justify-between'>
+    <div className='flex pt-40 space-x-5 justify-start h-max '>
       <div className='w-2/3'>
-        <div className='flex flex-col  w-full pl-[17%] pt-[17%] space-y-2 font-bold font-serif'>
+        <div className='flex flex-col  w-full pl-[17%] pt-[0%] space-y-2 font-bold font-serif'>
           <h3 className='text-lg'>Hi There,</h3>
           <h1 className='text-6xl'>Hello guys how r u ?</h1>
           <h2 className='text-2xl '>  Hope everything is goood😁</h2>
@@ -25,8 +22,8 @@ const Textform1 = () => {
             </button>
           </Link>
       </div>
-      <div className='font-bold'>
-        Hello this is image
+      <div className=' flex items-center pt-32'>
+        <img className="h-64" src="/src/assets/books.png" alt="" />
       </div>
     </div>
     
@@ -36,3 +33,4 @@ const Textform1 = () => {
 }
 
 export default Textform1
+
