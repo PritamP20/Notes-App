@@ -22,7 +22,7 @@ const Textform1 = () => {
             </button>
           </Link>
       </div>
-      <div className=' flex items-center pt-32'>
+      <div className=' flex items-center pt-16'>
         <img className="h-64" src="/src/assets/books.png" alt="" />
       </div>
     </div>
