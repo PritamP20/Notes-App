@@ -9,6 +9,7 @@ import Course from './components/Course';
 import CSE from './components/CSE/CSE_sem';
 import Sem_1 from './components/CSE/Sem_1';
 import Physics from './components/CSE/Physics';
+import Contact from './components/Contact';
 
 
 // For React Router v5
@@ -29,6 +30,7 @@ function App() {
           <Route path="/CSE" element={<CSE />} />
           <Route path="/Sem_1" element={<Sem_1 />} />
           <Route path="/Physics" element={<Physics />} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
