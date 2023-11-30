@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
 
-
+ 
 <nav class="bg-white border-gray-200 dark:bg-gray-900 ">
   <div class="w-f flex flex-wrap items-center justify-between p-4">
   <Link to="/" class="flex items-center space-x-3 rtl:space-x-reverse">

@@ -10,7 +10,7 @@ const CSE = () => {
             <h1 className='text-5xl'>Select Your Semister</h1>
           </div>
         </div>
-
+ 
         <div className='space-y-20 pt-32 pr-20 pl-20'>
         <div>
           <div className='flex justify-between'>

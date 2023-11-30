@@ -27,7 +27,7 @@ const Textform1 = () => {
       </div>
     </div>
     
-
+ 
     </>
   )
 }

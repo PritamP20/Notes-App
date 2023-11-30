@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 // Based on the role given do it. Don't change it unless you are not assigned
 const Course = () => {
-  return (
+  return ( 
     <>
     <div  className='pt-12'>
       <div className=' pl-16 font-bold font-serif'>
