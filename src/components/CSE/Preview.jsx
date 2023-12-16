@@ -33,9 +33,9 @@ const Preview = (props) => {
         // Handle any errors
       });
 
-      useEffect(()=>{
-        getDownloadURL()
-      },[])
+    //   useEffect(()=>{
+    //     getDownloadURL()
+    //   },[])
 
   return (
     <>
