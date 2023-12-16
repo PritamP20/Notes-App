@@ -1,14 +1,15 @@
-//import Navbar from '../../noteApp/src/components/Navbar';
-//import Example from '../../noteApp/src/components/Navbar'
-//import Textform1 from '../../noteApp/src/components/Textform1'
-import Login from './components/Login'
-import React, {useState} from 'react'
+import Navbar from './components/Navbar';
+import Example from './components/Navbar';
+import Textform1 from './components/Textform1';
+import Login from "./components/Login";
+import React, {useState} from "react";
 // For React Router v6
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Course from './components/Course';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Course from "./components/Course";
+import { fromJSON } from "postcss";
 
 // For React Router v5
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+ //import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 function App() {
