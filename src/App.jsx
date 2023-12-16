@@ -10,6 +10,10 @@ import CSE from './components/CSE/CSE_sem';
 import Sem_1 from './components/CSE/Sem_1';
 import Physics from './components/CSE/Physics';
 import Contact from './components/Contact';
+import Upload from './components/Upload';
+import Chemistry from './components/CSE/Chemistry';
+import Preview from './components/CSE/Preview';
+// import MyCustomButton from './components/MyCustomButton';
 
 
 // For React Router v5
@@ -21,8 +25,9 @@ function App() {
 
   return (
     <Router>
-      <Navbar />
-      <div>
+      
+      <div className='bg-gradient-to-bl from-indigo-900 via-indigo-400 to-indigo-900 h-screen -z-1 mt-0'>
+        <Navbar></Navbar>
         <Routes> 
           <Route path="/" element={<Textform1 />} />
           <Route path="/Login" element={<Login />} />
@@ -30,7 +35,12 @@ function App() {
           <Route path="/CSE" element={<CSE />} />
           <Route path="/Sem_1" element={<Sem_1 />} />
           <Route path="/Physics" element={<Physics />} />
-          <Route path="/Contact" element={<Contact />} />
+          {/* <Route path="/Mybutton" element={<MyCustomButton />} /> */}
+          {/* <Route path="/upload" element={UploadButton} /> */}
+          <Route path="/Chemistry" element={<Chemistry />} />
+          <Route path="/Preview" element={<Preview/>} />
+          <Route path="/Upload" element={<Upload />} />
+          
         </Routes>
       </div>
     </Router>
