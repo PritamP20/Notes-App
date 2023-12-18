@@ -41,6 +41,7 @@ function App() {
           <Route path="/Chemistry" element={<Chemistry />} />
           <Route path="/Preview" element={<Preview/>} />
           <Route path="/Upload" element={<Upload />} />
+          <Route path="/Contact" element={<Contact />} />
           
         </Routes>
       </div>
