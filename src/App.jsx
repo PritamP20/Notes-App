@@ -27,7 +27,7 @@ function App() {
   return (
     <Router>
       
-      <div className='bg-gradient-to-bl from-indigo-900 via-indigo-400 to-indigo-900 h-screen -z-1 mt-0'>
+      <div className='bg-[#fef9c3] h-screen -z-1 mt-0'>
         <Navbar></Navbar>
         <Routes> 
           <Route path="/" element={<Textform1 />} />
