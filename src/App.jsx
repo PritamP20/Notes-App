@@ -1,4 +1,3 @@
-
 import Navbar from './components/Navbar';
 import Example from './components/Navbar'
 import Textform1 from './components/Textform1'
@@ -14,6 +13,7 @@ import Contact from './components/Contact';
 import Upload from './components/Upload';
 import Chemistry from './components/CSE/Chemistry';
 import Preview from './components/CSE/Preview';
+import Reference from './components/Reference';
 
 // import MyCustomButton from './components/MyCustomButton';
 
@@ -42,6 +42,7 @@ function App() {
           <Route path="/CSE" element={<CSE />} />
           <Route path="/Sem_1" element={<Sem_1 />} />
           <Route path="/Physics" element={<Physics />} />
+          <Route path="/Reference" element={<Reference />} />
           {/* <Route path="/Mybutton" element={<MyCustomButton />} /> */}
           {/* <Route path="/upload" element={UploadButton} /> */}
           <Route path="/Chemistry" element={<Chemistry />} />
