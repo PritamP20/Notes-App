@@ -7,8 +7,8 @@ const Navbar = () => {
   return (
 
  
-<nav class="relative bg-transparent border-gray-200 dark:bg-transparent rounded-lg shadow-lg mb-2 bg-cover bg-pack-train flex flex-col ">
-  <div class="w-full flex flex-wrap items-center justify-between p-4">
+<nav class="relative bg-white border-gray-200 dark:bg-transparent ">
+  <div class="w-f flex flex-wrap items-center justify-between p-4">
   <Link to="/" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="/src/assets/logo.png" class="h-8" alt="Flowbite Logo" />
       <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">Note Ninja!</span>
@@ -23,7 +23,7 @@ const Navbar = () => {
       {/* <!-- Dropdown menu --> */}
   </div>
   <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-user">
-    <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+    <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
       <li>
         <Link to="/" href="#" class="block text-2xl py-2 px-3 text-black bg-white-400 rounded md:bg-transparent md:text-black-400 md:p-0 md:dark:text-black-500" aria-current="page">Home</Link>
       </li>
