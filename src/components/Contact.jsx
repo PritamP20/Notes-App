@@ -9,15 +9,16 @@ export default class Contact extends Component {
 
   render() {
     return (
-      <div className="relative flex flex-col items-center justify-center h-screen">
+      <div className="relative flex flex-col items-center justify-above h-screen">
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
-              Your FeedBack matters
-            </span>
+          <h1 className="text-2xl font-extrabold text-gray-900 dark:text-Black md:text-5xl lg:text-3xl">
+            Your Feedback matters
           </h1>
           <p className="text-lg font-normal text-black-500 lg:text-xl dark:text-black-400">
-            In fostering a <a href="#" class="font-semibold text-gray-900 underline dark:text-green decoration-indigo-500">positive</a> and inclusive online community, we kindly request everyone to be <a href="#" class="font-semibold text-gray-900 underline dark:text-green decoration-indigo-500">respectful</a> and considerate in their <a href="#" class="font-semibold text-gray-900 underline dark:text-green decoration-indigo-500">comments</a>, recognizing that we value <a href="#" class="font-semibold text-gray-900 underline dark:text-green decoration-indigo-500">diverse</a> perspectives and <a href="#" class="font-semibold text-gray-900 underline dark:text-green decoration-indigo-500">opinions</a>.
+            In fostering a positive and inclusive online community,
+            </p>
+            <p className="text-lg font-normal text-black-500 lg:text-xl dark:text-black-400"> 
+            we kindly request everyone to be respectful in their comments.
           </p>
         </div>
         <form onSubmit={this.handleSubmit} className="max-w-md w-full">
