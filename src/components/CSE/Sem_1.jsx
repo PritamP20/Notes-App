@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Sem_1 = () => {
   return (
     <div>
-      <div  className='pt-12 flex flex-col'>
+      <div  className='relative pt-12 flex flex-col'>
           <div className=' pl-16 font-bold font-serif'>
             <h1 className='text-5xl'>Select Your Cycle</h1>
           </div>

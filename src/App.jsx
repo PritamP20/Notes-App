@@ -29,11 +29,8 @@ function App() {
   return (
     <Router>
       
-      <div className='flex flex-col bg-[#fef9c3] bg-cover  mt-0'>
-      <div className=" bg-cover bg-pack-train flex flex-col " >
-        {/* <img className='absolute inset-0 m-auto w-full h-full object-cover' src="\BG-image.jpg" alt="" /> */}
-        <div >
-        <div>
+      <div className='bg-[#fef9c3] h-screen ab mt-0'>
+        {/* <img src="/src/assets/BEEE_thumbnail.png" alt="" /> */}
         <Navbar></Navbar>
         <Routes> 
           <Route path="/" element={<Textform1 />} />
@@ -51,9 +48,6 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           
         </Routes>
-        </div>
-        </div>
-      </div>
       </div>
     </Router>
   )
