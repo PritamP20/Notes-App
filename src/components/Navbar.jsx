@@ -7,8 +7,8 @@ const Navbar = () => {
   return (
 
  
-<nav class="bg-transparent border-gray-200 dark:bg-transparent ">
-  <div class="w-f flex flex-wrap items-center justify-between p-4">
+<nav class="bg-transparent border-gray-200 dark:bg-transparent rounded-lg shadow-lg mb-2 bg-cover bg-pack-train flex flex-col ">
+  <div class="w-full flex flex-wrap items-center justify-between p-4">
   <Link to="/" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="/src/assets/logo.png" class="h-8" alt="Flowbite Logo" />
       <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">Note Ninja!</span>

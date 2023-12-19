@@ -29,7 +29,11 @@ function App() {
   return (
     <Router>
       
-      <div className='bg-[#fef9c3] h-screen -z-1 mt-0'>
+      <div className='flex flex-col bg-[#fef9c3] bg-cover  mt-0'>
+      <div className=" bg-cover bg-pack-train flex flex-col " >
+        {/* <img className='absolute inset-0 m-auto w-full h-full object-cover' src="\BG-image.jpg" alt="" /> */}
+        <div >
+        <div>
         <Navbar></Navbar>
         <Routes> 
           <Route path="/" element={<Textform1 />} />
@@ -46,6 +50,9 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           
         </Routes>
+        </div>
+        </div>
+      </div>
       </div>
     </Router>
   )
