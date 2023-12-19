@@ -1,6 +1,6 @@
-import Navbar from '../../noteApp/src/components/Navbar';
-import Example from '../../noteApp/src/components/Navbar'
-import Textform1 from '../../noteApp/src/components/Textform1'
+import Navbar from './components/Navbar';
+import Example from './components/Navbar'
+import Textform1 from './components/Textform1'
 import Login from './components/Login'
 import React, {useState} from 'react'
 // For React Router v6
