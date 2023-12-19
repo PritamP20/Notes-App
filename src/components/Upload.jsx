@@ -39,7 +39,7 @@ function Upload() {
   };
 
   return (
-    <div className="flex items-center justify-center">
+    <div className="relative flex items-center justify-center">
         <div className="pt-52">
             <form onSubmit={formHandler}>
                 <input type="file" className="input" />

@@ -9,7 +9,7 @@ export default class Contact extends Component {
 
   render() {
     return (
-      <div className="flex flex-col items-center justify-center h-screen">
+      <div className="relative flex flex-col items-center justify-center h-screen">
         <div className="text-center mb-8">
           <h1 className="text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
             <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
-//import { authlogin } from './firebase_login';
+//import { authlogin } from './firebase';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 
 
@@ -24,7 +24,7 @@ const Login = () => {
 
   
   return (
-    <div className=" relative flex justify-center items-center h-screen ">
+    <div className="flex relative justify-center items-center h-screen ">
       <div className="w-96 p-6 shadow-lg bg-white rounded-md border-r-2000">
       <div className="flex items-center justify-center">
         <svg className="w-6 h-6 text-gray-800 dark:text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 18">
@@ -49,7 +49,7 @@ const Login = () => {
               </div>
           </div>
           <div>
-          <button type="submit" className="border-2 border-white bg-[#fef9c3] text-black py-1 mt-7 w-full rounded-md hover:bg-white hover:text-black font-semibold">&nbsp;&nbsp;Log In</button>
+          <button type="submit" className="border-2 border-white bg-[#1e293b] text-white py-1 mt-7 w-full rounded-md hover:bg-white hover:border-black hover:text-black font-semibold">&nbsp;&nbsp;Log In</button>
           </div>
         </form> 
        </div> 

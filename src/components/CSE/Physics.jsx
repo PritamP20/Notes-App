@@ -5,7 +5,7 @@ const Physics = () => {
   const navigate = useNavigate()
   return (
     <> 
-      <div className='flex pt-10 space-x-4'> 
+      <div className='relative flex pt-10 space-x-4'> 
         <div className='w-1/5 flex-col border rounded-xl'>
           <h1 className='flex p-2 justify-center text-3xl text font-semibold'>Maths</h1>
           <hr />

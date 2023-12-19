@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
 
  
-<nav class="bg-transparent border-gray-200 dark:bg-transparent rounded-lg shadow-lg mb-2 bg-cover bg-pack-train flex flex-col ">
+<nav class="relative bg-transparent border-gray-200 dark:bg-transparent rounded-lg shadow-lg mb-2 bg-cover bg-pack-train flex flex-col sm:mx-44 ">
   <div class="w-full flex flex-wrap items-center justify-between p-4">
   <Link to="/" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="/src/assets/logo.png" class="h-8" alt="Flowbite Logo" />
@@ -31,7 +31,7 @@ const Navbar = () => {
         <Link to="/Course" href="#" class="block text-2xl py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700">Course</Link>
       </li>
       <li>
-        <a href="/Reference" class="block text-2xl py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-700 md:p-0 dark:text-black md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700">Reference</a>
+        <Link to = "/Reference" class="block text-2xl py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-700 md:p-0 dark:text-black md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700">Reference</Link>
       </li>
       <li>
         <Link to='/Contact'><a href="#" class="block text-2xl py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700">Feedback</a></Link>

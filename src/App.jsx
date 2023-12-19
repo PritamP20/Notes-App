@@ -13,7 +13,8 @@ import Contact from './components/Contact';
 import Upload from './components/Upload';
 import Chemistry from './components/CSE/Chemistry';
 import Preview from './components/CSE/Preview';
-import Reference from './components/Reference';
+import Reference from './components/References/Reference';
+//import Reference_sem1 from './components/References/Reference_sem1';
 
 // import MyCustomButton from './components/MyCustomButton';
 
@@ -29,11 +30,9 @@ function App() {
   return (
     <Router>
       
-      <div className='flex flex-col bg-[#fef9c3] bg-cover  mt-0'>
-      <div className=" bg-cover bg-pack-train flex flex-col " >
-        {/* <img className='absolute inset-0 m-auto w-full h-full object-cover' src="\BG-image.jpg" alt="" /> */}
-        <div >
-        <div>
+      <div className='bg-[#fef9c3] h-screen ab mt-0'>
+        {/* <img src="/src/assets/BEEE_thumbnail.png" alt="" /> */}
+        <img className="absolute" src="/src/assets/bg-1.jpeg" alt="" />
         <Navbar></Navbar>
         <Routes> 
           <Route path="/" element={<Textform1 />} />
@@ -43,6 +42,7 @@ function App() {
           <Route path="/Sem_1" element={<Sem_1 />} />
           <Route path="/Physics" element={<Physics />} />
           <Route path="/Reference" element={<Reference />} />
+          {/* <Route path="/Reference_sem1" element={<Reference_sem1 />} /> */}
           {/* <Route path="/Mybutton" element={<MyCustomButton />} /> */}
           {/* <Route path="/upload" element={UploadButton} /> */}
           <Route path="/Chemistry" element={<Chemistry />} />
@@ -51,9 +51,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           
         </Routes>
-        </div>
-        </div>
-      </div>
+        
       </div>
     </Router>
   )
