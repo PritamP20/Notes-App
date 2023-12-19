@@ -1,17 +1,19 @@
-
 import { initializeApp } from "firebase/app";
-import { getStorage } from "firebase/storage";
+import { getAuth } from "firebase/auth";
 
-const firebaseConfiglogin = {
-  apiKey: "AIzaSyAzSpp1NO3yjRleAFEZkHtJPRQM7_a-Iss",
-  authDomain: "login-65b8e.firebaseapp.com",
-  projectId: "login-65b8e",
-  storageBucket: "login-65b8e.appspot.com",
-  messagingSenderId: "516984327453",
-  appId: "1:516984327453:web:6e587d7b87871fca60e5f4",
-  measurementId: "G-FRXQGS8C9H"
+
+// Your web app's Firebase configuration
+const firebaseConfigLogin = {
+  apiKey: "AIzaSyBO92WovG3NCI2tV0wbmfOw8HSRP7h5ffs",
+  authDomain: "loginpage-76524.firebaseapp.com",
+  projectId: "loginpage-76524",
+  storageBucket: "loginpage-76524.appspot.com",
+  messagingSenderId: "47625877029",
+  appId: "1:47625877029:web:9cfa1b94b735ea144a31cc"
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfiglogin);
-const storagelogin = getStorage(app);
+export const appLogin = initializeApp(firebaseConfigLogin);
+
+// Initialize Firebase Authentication and get a reference to the service
+export const authlogin = getAuth(appLogin);
