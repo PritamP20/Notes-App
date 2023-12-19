@@ -24,7 +24,7 @@ const Login = () => {
 
   
   return (
-    <div className="flex justify-center items-center h-screen bg-[#fef9c3]">
+    <div className="flex relative justify-center items-center h-screen bg-[#fef9c3]">
       <div className="w-96 p-6 shadow-lg bg-white rounded-md border-r-2000">
       <div className="flex items-center justify-center">
         <svg className="w-6 h-6 text-gray-800 dark:text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 18">
