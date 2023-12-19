@@ -31,6 +31,7 @@ function App() {
       
       <div className='bg-[#fef9c3] h-screen ab mt-0'>
         {/* <img src="/src/assets/BEEE_thumbnail.png" alt="" /> */}
+        <img className="absolute" src="/src/assets/bg-1.jpeg" alt="" />
         <Navbar></Navbar>
         <Routes> 
           <Route path="/" element={<Textform1 />} />
@@ -48,6 +49,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           
         </Routes>
+        
       </div>
     </Router>
   )
