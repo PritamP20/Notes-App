@@ -10,16 +10,11 @@ export default class Contact extends Component {
   }
 
   handleSubmit = (event) => {
-    // Handle form submission logic here
-    event.preventDefault(); // Prevents the default form submission behavior
-    // Add your logic to handle the form data or make an API call
-
-    // Set the state to indicate that the form has been submitted
+    event.preventDefault(); 
     this.setState({ submitted: true });
   };
 
   handlePostAnotherComment = () => {
-    // Reset the state to allow for posting another comment
     this.setState({ submitted: false });
   };
 
@@ -58,7 +53,7 @@ export default class Contact extends Component {
                 </label>
                 <textarea
                   id="comment"
-                  rows="6" // Adjust the number of rows as needed
+                  rows="6" 
                   className="w-full px-0 text-sm text-gray-900 bg-white border-0 dark:bg-gray-800 focus:ring-0 dark:text-white dark:placeholder-gray-400"
                   placeholder="Write a comment..."
                   required
