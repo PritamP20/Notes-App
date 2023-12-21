@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { collection, addDoc } from "firebase/firestore";
+import { db } from './firebase'
 
 export default class Contact extends Component {
   constructor(props) {
@@ -6,13 +8,27 @@ export default class Contact extends Component {
 
     this.state = {
       submitted: false,
+      feedbackValue: "",
     };
   }
 
-  handleSubmit = (event) => {
-    event.preventDefault(); 
+  handleSubmit = async (event) => {
+    event.preventDefault();
+    try {
+      const docRef = await addDoc(collection(db, "feedbacks"), {
+        content: this.state.feedbackValue,
+      });
+      // console.log("Document written with ID: ", docRef.id);
+    } catch (e) {
+      console.error("Error adding document: ", e);
+    }
+
     this.setState({ submitted: true });
   };
+
+  handleChange = (event) => {
+    this.setState({ feedbackValue: event.target.value })
+  }
 
   handlePostAnotherComment = () => {
     this.setState({ submitted: false });
@@ -30,7 +46,7 @@ export default class Contact extends Component {
           <p className="text-lg font-normal text-black-500 lg:text-xl dark:text-black-400">
             In fostering a positive and inclusive online community,
           </p>
-          <p className="text-lg font-normal text-black-500 lg:text-xl dark:text-black-400"> 
+          <p className="text-lg font-normal text-black-500 lg:text-xl dark:text-black-400">
             we kindly request everyone to be respectful in their comments.
           </p>
         </div>
@@ -53,7 +69,9 @@ export default class Contact extends Component {
                 </label>
                 <textarea
                   id="comment"
-                  rows="6" 
+                  value={this.state.feedbackValue}
+                  onChange={this.handleChange}
+                  rows="6"
                   className="w-full px-0 text-sm text-gray-900 bg-white border-0 dark:bg-gray-800 focus:ring-0 dark:text-white dark:placeholder-gray-400"
                   placeholder="Write a comment..."
                   required

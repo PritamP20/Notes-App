@@ -3,12 +3,14 @@ import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBIFvmD20ogOAa2hue7qFbp9r3W6118B_4",
-  authDomain: "fir-app-5920f.firebaseapp.com",
-  projectId: "fir-app-5920f",
-  storageBucket: "fir-app-5920f.appspot.com",
-  messagingSenderId: "380256160623",
-  appId: "1:380256160623:web:49d09bc7e2bc280863769a"
+  apiKey: "AIzaSyCfyxppzOuNznr74l_qaWc8W7C7PLUayDw",
+  authDomain: "feedback-b245a.firebaseapp.com",
+  databaseURL: "https://feedback-b245a-default-rtdb.firebaseio.com",
+  projectId: "feedback-b245a",
+  storageBucket: "feedback-b245a.appspot.com",
+  messagingSenderId: "174572711622",
+  appId: "1:174572711622:web:0433c4fab2e840c79b71c7",
+  measurementId: "G-65T5QS2EC4"
 };
 
 export const app = initializeApp(firebaseConfig)
