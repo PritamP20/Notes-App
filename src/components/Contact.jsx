@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { collection, addDoc } from "firebase/firestore";
-import { db } from './firebase'
+
 
 export default class Contact extends Component {
   constructor(props) {
