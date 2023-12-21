@@ -40,7 +40,7 @@ const Physics = () => {
         </div>
 
         <div className='w-1/5 flex-col border border-black rounded-xl'>
-          <h1 className='flex p-2 justify-center text-3xl text font-semibold'>Maths</h1>
+          <h1 className='flex p-2 justify-center text-3xl text font-semibold'>Physics</h1>
           <hr className='border-black' />
           <div className='flex justify-center pt-8'>
             <button type="button" className="shadow-xl flex-col justify-center items-end text-gray-900 bg-transparent border border-black focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 light:bg-gray-800 light:text-white light:border-gray-600 light:hover:bg-gray-700 light:hover:border-gray-600 light:focus:ring-gray-700">
@@ -69,7 +69,7 @@ const Physics = () => {
         </div>
 
         <div className='w-1/5 flex-col border border-black rounded-xl'>
-          <h1 className='flex p-2 justify-center text-3xl text font-semibold'>Maths</h1>
+          <h1 className='flex p-2 justify-center text-3xl text font-semibold'>Civil</h1>
           <hr className='border-black' />
           <div className='flex justify-center pt-8'>
             <button type="button" className="shadow-xl flex-col justify-center items-end text-gray-900 bg-transparent border border-black focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 light:bg-gray-800 light:text-white light:border-gray-600 light:hover:bg-gray-700 light:hover:border-gray-600 light:focus:ring-gray-700">
@@ -98,7 +98,7 @@ const Physics = () => {
         </div>
 
         <div className='w-1/5 flex-col border border-black rounded-xl'>
-          <h1 className='flex p-2 justify-center text-3xl text font-semibold'>Maths</h1>
+          <h1 className='flex p-2 justify-center text-3xl text font-semibold'>IDS</h1>
           <hr className='border-black' />
           <div className='flex justify-center pt-8'>
             <button type="button" className="shadow-xl flex-col justify-center items-end text-gray-900 bg-transparent border border-black focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 light:bg-gray-800 light:text-white light:border-gray-600 light:hover:bg-gray-700 light:hover:border-gray-600 light:focus:ring-gray-700">
@@ -127,7 +127,7 @@ const Physics = () => {
         </div>
         
         <div className='w-1/5 flex-col border border-black rounded-xl'>
-          <h1 className='flex p-2 justify-center text-3xl text font-semibold'>Maths</h1>
+          <h1 className='flex p-2 justify-center text-3xl text font-semibold'>CAED</h1>
           <hr className='border-black' />
           <div className='flex justify-center pt-8'>
             <button type="button" className="shadow-xl flex-col justify-center items-end text-gray-900 bg-transparent border border-black focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 light:bg-gray-800 light:text-white light:border-gray-600 light:hover:bg-gray-700 light:hover:border-gray-600 light:focus:ring-gray-700">

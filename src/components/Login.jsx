@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
-//import { authlogin } from './firebase';
+import { auth } from './firebase';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 
 
@@ -13,7 +13,7 @@ const Login = () => {
   const handleSubmit = () => {
     e.preventDefault();
     console.log(email);
-    signInWithEmailAndPassword(authlogin, email, pass)
+    signInWithEmailAndPassword(auth, email, pass)
     .then((userCredential) => {
       console.log(userCredential);
     })

@@ -14,7 +14,7 @@ import Upload from './components/Upload';
 import Chemistry from './components/CSE/Chemistry';
 import Preview from './components/CSE/Preview';
 import Reference from './components/References/Reference';
-//import Reference_sem1 from './components/References/Reference_sem1';
+import Reference_sem1 from './components/References/Reference_sem1';
 
 // import MyCustomButton from './components/MyCustomButton';
 
@@ -42,7 +42,7 @@ function App() {
           <Route path="/Sem_1" element={<Sem_1 />} />
           <Route path="/Physics" element={<Physics />} />
           <Route path="/Reference" element={<Reference />} />
-          {/* <Route path="/Reference_sem1" element={<Reference_sem1 />} /> */}
+          <Route path="/Reference_sem1" element={<Reference_sem1 />} />
           {/* <Route path="/Mybutton" element={<MyCustomButton />} /> */}
           {/* <Route path="/upload" element={UploadButton} /> */}
           <Route path="/Chemistry" element={<Chemistry />} />
