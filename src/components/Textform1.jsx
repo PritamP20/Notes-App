@@ -12,10 +12,10 @@ const Textform1 = () => {
     <div className=' '>
     
       <div className=''>
-        <div className='flex flex-col  w-full  space-y-2 font-bold font-serif items-center'>
-          <h3 className='relative text-xl'>Hi There,</h3>
-          <h1 className='relative text-7xl font-serif'>Hello guys how r u ?</h1>
-          <h2 className='relative text-4xl font-'>  Hope everything is goood😁</h2>
+        <div className='flex flex-col  w-full  space-y-5 font-bold font-serif items-center'>
+          <h1 className='relative text-7xl font-serif'>Welcome to Notes Ninja</h1>
+          <h2 className='relative text-4xl text-center font-serif'> The Collaborative Hub where students and educators seamlessly share </h2>
+          <h2 className='relative text-4xl text-center font-serif'>  and refer notes across various schools</h2>
           <div>
           <Link to='/Course'>
             {/* <button class="relative ml-[30%] mt-[3%] inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-blue-500 to-blue-500 group-hover:from-blue-600 group-hover:to-blue-500 hover:text-white light:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"> */}
